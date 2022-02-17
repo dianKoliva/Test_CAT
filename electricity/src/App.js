@@ -19,7 +19,7 @@ function App() {
       </div>
 
 <div >
-<Buying></Buying>
+<Remaining></Remaining>
 </div>
 
     </div>

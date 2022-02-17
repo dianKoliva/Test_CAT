@@ -41,7 +41,7 @@ setMuch(true)
 
 
 <div className="block mt-4">
-  {invMeter?<p className='text-red-500 text-sm '>invalid meter, only 6 digits accepted</p>:null}
+  {invMeter?<p className='text-red-500 text-xs '>invalid meter, only 6 digits accepted</p>:null}
 <label>
     Meter number
     </label>
@@ -51,7 +51,7 @@ setMuch(true)
     
 
     <div className="block mt-4">
-      {much?<p className='  text-sm text-red-500'>invalid amount, only 
+      {much?<p className='  text-xs text-red-500'>invalid amount, only 
 multiples of 100 not greater than 182,500 is accepted</p>:null}
 <label className='text-left'>
     Amount of Money
