@@ -31,7 +31,7 @@ setMuch(true)
 
   }
   return (
-    <div className='  bg-blue-100'> 
+    <div className='  bg-blue-100 cnt'> 
     <div className="ml-96 pl-52 mt-5 ">Buying electricity Tokens
 
 <div className="block mt-4">

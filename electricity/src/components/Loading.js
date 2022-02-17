@@ -7,7 +7,8 @@ const Loading = () => {
 
 <div className='block'>
 <input type="text" ></input>
-     <button>Empower</button>
+<br></br>
+     <button className='bg-red-500'>Empower</button>
 </div>
 
 
