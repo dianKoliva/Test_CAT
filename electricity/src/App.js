@@ -1,7 +1,7 @@
 import Remaining from './components/Remaining';
 // import logo from './logo.svg';
 
-// import Buying from "./components/Buying"
+import Buying from "./components/Buying"
 import "./App.css"
 
 import Loading from './components/Loading';
@@ -18,6 +18,9 @@ function App() {
 <p className='ml-10'>Remaining</p>
       </div>
 
+<div>
+  
+</div>
 
     </div>
   );
