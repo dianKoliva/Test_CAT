@@ -17,12 +17,25 @@ function App() {
 
       <div className=' pl-10 pt-14 flex'>
 
-      <p className=' cursor-pointer hover:underline'>Buying</p>
-<p className='cursor-pointer hover:underline ml-10'>Loading</p>
-<p className='cursor-pointer hover:underline ml-10'>Remaining</p>
+      <p onClick={()=>{setBuying(true);setLoading(false);setRemaining(false)}} className=' cursor-pointer hover:underline'>Buying</p>
+<p onClick={()=>{
+  setBuying(false)
+ setLoading(true)
+ setRemaining(false)
+}} className='cursor-pointer hover:underline ml-10'>Loading</p>
+<p 
+
+onClick={()=>{
+  setBuying(false)
+ setLoading(false)
+ setRemaining(true)
+}}
+
+className='cursor-pointer hover:underline ml-10'>Remaining</p>
       </div>
 
 <div >
+  {buy?<Buying></Buying>:Loading?<Loading></Loading>:remaining?<Remaining></Remaining>:<Buying></Buying>}
 <Loading></Loading>
 </div>
 
