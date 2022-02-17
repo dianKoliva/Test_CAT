@@ -36,7 +36,6 @@ className='cursor-pointer hover:underline ml-10'>Remaining</p>
 
 <div >
   {buy?<Buying></Buying>:Loading?<Loading></Loading>:remaining?<Remaining></Remaining>:<Buying></Buying>}
-<Loading></Loading>
 </div>
 
     </div>
