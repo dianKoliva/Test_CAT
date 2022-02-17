@@ -19,7 +19,7 @@ function App() {
       </div>
 
 <div >
-<Remaining></Remaining>
+<Loading></Loading>
 </div>
 
     </div>
