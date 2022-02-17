@@ -5,9 +5,13 @@ import Buying from "./components/Buying"
 import "./App.css"
 
 import Loading from './components/Loading';
+import { useState } from 'react';
 
 
 function App() {
+  const [buy,setBuying]=useState(true)
+  const [Loading,setLoading]=useState(false)
+  const [remaining,setRemaining]=useState(false)
   return (
     <div className="App h-96 text-sm ">
 
