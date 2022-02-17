@@ -4,7 +4,7 @@ import Buying from "./components/Buying"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-blue-100 height-full">
    <Buying></Buying>
    
     </div>
