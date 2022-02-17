@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .App {
- background-color:#d8e5ee ;
+ background-color:#e2eff7 ;
  font-family: 'Poppins', sans-serif;
  height: 100em;
 }
@@ -13,7 +13,10 @@ border: solid 1px black;
 border-radius: 3px;
 }
 .get{
-    background: #005c99;
+    background: #1a5175;
     color: white;
     border-radius: 3px;
+}
+.mm{
+    height:22em;
 }

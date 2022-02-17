@@ -9,13 +9,13 @@ import Loading from './components/Loading';
 
 function App() {
   return (
-    <div className="App h-96 ">
+    <div className="App h-96 text-sm ">
 
       <div className=' pl-10 pt-14 flex'>
 
-      <p className=''>Buying</p>
-<p className=' ml-10'>Loading</p>
-<p className='ml-10'>Remaining</p>
+      <p className=' cursor-pointer hover:underline'>Buying</p>
+<p className='cursor-pointer hover:underline ml-10'>Loading</p>
+<p className='cursor-pointer hover:underline ml-10'>Remaining</p>
       </div>
 
 <div >
