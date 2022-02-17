@@ -2,7 +2,11 @@ import React from 'react'
 
 const Remaining = () => {
   return (
-    <div>Remaining</div>
+    <div>
+        <p>Checking your remaining days</p>
+
+
+    </div>
   )
 }
 
