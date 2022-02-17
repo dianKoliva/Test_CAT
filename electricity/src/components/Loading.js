@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Loading = () => {
+    const [token,setToken]=useState(0)
   return (
-    <div>Loading</div>
+    <div>Enter your token for electricity
+
+     <input type="text" ></input>
+     <button>Empower</button>
+
+    </div>
   )
 }
 

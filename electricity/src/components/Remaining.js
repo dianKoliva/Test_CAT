@@ -7,7 +7,7 @@ const Remaining = () => {
 
     const submit=()=>{
 setinvalid(false)
-if(meter.length!=6||typeof meter!="string"){
+if(meter.length!==6||typeof meter!=="string"){
 setinvalid(true);
 }
 
