@@ -5,8 +5,12 @@ const Loading = () => {
   return (
     <div>Enter your token for electricity
 
-     <input type="text" ></input>
+<div className='block'>
+<input type="text" ></input>
      <button>Empower</button>
+</div>
+
+
 
     </div>
   )
