@@ -9,21 +9,22 @@ const Buying = () => {
   const [show,changeShow]=useState(false)
   const [token,setToken]=useState(true)
   const submit=()=>{
-    if(nbr.length>6){
-     setInvMeter(true)
-    }
-    else if(money%100!=0){
- setNothundred(true)
- setInvMeter(false)
-    }
-    else if(money>182500){
-      setMuch(true)
-      setNothundred(false)
-      setInvMeter(false)
-    }
+//     if(nbr.length>6){
+//      setInvMeter(true)
+//     }
+//     else if(money%100!=0){
+//  setNothundred(true)
+//  setInvMeter(false)
+//     }
+//     else if(money>182500){
+//       setMuch(true)
+//       setNothundred(false)
+//       setInvMeter(false)
+//     }
+console.log("submitting");
   }
   return (
-    <div> 
+    <div className='  bg-blue-100'> 
     <div className="ml-96 pl-52 mt-5 ">Buying electricity Tokens
 
 <div className="block">
@@ -31,7 +32,8 @@ const Buying = () => {
 <label>
     Meter number
     </label>
-<input onChange={(e)=>{setNbr(e.target.value)}} value={nbr} type="text" />
+    <br></br>
+<input className='py-1 px-2' onChange={(e)=>{setNbr(e.target.value)}} value={nbr} type="text" />
 </div>
     
 
@@ -39,6 +41,7 @@ const Buying = () => {
 <label>
     Amount of Money
     </label>
+    <br></br>
 <input onChange={(e)=>{setMoney(e.target.value)}} value={money} type="text" />
 </div>
 {show? <p>Token bought: {token}</p>:null}
