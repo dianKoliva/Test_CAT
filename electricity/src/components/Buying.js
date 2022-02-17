@@ -31,8 +31,8 @@ setMuch(true)
 
   }
   return (
-    <div className='  bg-blue-100 cnt'> 
-    <div className="ml-96 pl-52 mt-5 ">Buying electricity Tokens
+    <div className=' bg-white w-96 h-96  cnt'> 
+    <div className=" mt-5 text-center pt-8 text-sm">Buying electricity Tokens
 
 <div className="block mt-4">
   {invMeter?<p className='text-red-500 text-sm '>invalid meter, only 6 digits accepted</p>:null}
@@ -40,7 +40,7 @@ setMuch(true)
     Meter number
     </label>
     <br></br>
-<input className=' focus:outline-none py-1 px-2' onChange={(e)=>{setNbr(e.target.value)}} value={nbr} type="text" />
+<input className=' input focus:outline-none py-1 px-2' onChange={(e)=>{setNbr(e.target.value)}} value={nbr} type="text" />
 </div>
     
 

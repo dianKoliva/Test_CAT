@@ -18,8 +18,8 @@ function App() {
 <p className='ml-10'>Remaining</p>
       </div>
 
-<div>
-  
+<div >
+<Buying></Buying>
 </div>
 
     </div>
