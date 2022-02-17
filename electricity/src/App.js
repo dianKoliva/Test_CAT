@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+import Remaining from './components/Remaining';
+// import logo from './logo.svg';
 
-import Buying from "./components/Buying"
+// import Buying from "./components/Buying"
+
 
 function App() {
   return (
     <div className="App bg-blue-100 height-full">
-   <Buying></Buying>
+   <Remaining></Remaining>
    
     </div>
   );
