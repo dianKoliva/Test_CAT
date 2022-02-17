@@ -9,7 +9,7 @@ const Buying = () => {
   const [show,changeShow]=useState(false)
   const [token,setToken]=useState(true)
   const submit=()=>{
-    if(length(nbr)>6){
+    if(nbr.length>6){
      setInvMeter(true)
     }
     else if(money%100!=0){
