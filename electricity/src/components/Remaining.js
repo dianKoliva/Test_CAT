@@ -18,6 +18,7 @@ setinvalid(true);
         <p>Check Balance</p>
 
  <div>
+    {invalid?<p>Your meter is invalid</p>:null}
      <p className="">Enter meter number</p>
      <input value={meter} onChange={(e)=>setMeter(e.target.value)} className=' focus:outline-none '></input>
  </div>
