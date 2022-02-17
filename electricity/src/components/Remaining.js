@@ -9,8 +9,8 @@ const Remaining = () => {
 setinvalid(false)
 if(meter.length!=6||typeof meter!="string"){
 setinvalid(true);
-
 }
+
     }
 
   return (
