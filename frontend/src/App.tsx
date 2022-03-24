@@ -20,19 +20,19 @@ function App() {
 function Home() {
   return (
     <section className="flex flex-col gap-12">
-      <h1 className="text-4xl font-bold italic">
-        Buy elecricity at the lowest price
+      <h1 className="text-4xl font-bold ">
+        We can help you buy Electricity
       </h1>
 
-      <div className="flex gap-4 items-center justify-center">
-        <Link to="/buy" className="bg-cyan-700 py-4 px-2 rounded-sm text-white">
-          Buy units{" "}
+      <div className="flex gap-8 items-center pt-10 justify-center">
+        <Link to="/buy" className="bg-blue-500 py-4 px-2 rounded-sm text-white">
+          Buy Electricity{" "}
         </Link>
         <Link
           to="/check"
-          className="bg-green-600 py-4 px-2 text-white rounded-sm"
+          className="bg-orange-500 py-4 px-2 text-white rounded-sm"
         >
-          Check units
+          Check Balance
         </Link>
       </div>
     </section>
@@ -42,13 +42,13 @@ function Home() {
 function Layout() {
   return (
     <section>
-      <nav className="flex shadow-sm bg-sky-900 text-white items-center justify-center gap-8 py-4">
+      <nav className="flex shadow-sm bg-blue-500 text-white items-center justify-center gap-8 py-6">
         <Link to="/" className="font-bold">
-          Electri-C
+          K-Electricity
         </Link>
         <div className="flex gap-4">
-          <Link to="/buy">Buy</Link>
-          <Link to="/check">Check</Link>
+          <Link to="/buy">Buy Electrcity</Link>
+          <Link to="/check">Check Balance</Link>
         </div>
       </nav>
       <div className="flex justify-center items-center py-20 flex-col">
